@@ -16,17 +16,19 @@ Python wrapper for Yahoo Boss API
 
 Install
 -------
+::
 
     pip install yboss
 
 Usage
 -----
+::
 
-    from yboss import YBoss
-    boss = YBoss(key=key, secret=secret)
-    results = boss.search("Solar Filter")
-    for result in results:
-	print result
+    from yboss import YBoss 
+    boss = YBoss(key=key, secret=secret)  
+    results = boss.search("Solar Filter")  
+    for result in results:  
+	print result  
 
     {u"abstract": "...long text...",
      u"clickurl":"http://...",
@@ -43,3 +45,5 @@ Features
 --------
 
 - Authenticate and search in YBoss API
+
+
