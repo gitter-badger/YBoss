@@ -107,6 +107,9 @@ class YBoss(object):
         Search filters must be passed together with search query (q)
         look: http://www.searchengineshowdown.com/features/yahoo/
         """
+        if isinstance(q, unicode):
+            q = q.encode("utf-8")
+
         params = {"q": q}
         params.update(kwargs)
         url = "{base_url}{service}?{params}".format(
