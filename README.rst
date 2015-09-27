@@ -2,6 +2,10 @@
 Ybosspy
 ===============================
 
+.. image:: https://badges.gitter.im/Join%20Chat.svg
+   :alt: Join the chat at https://gitter.im/catholabs/YBoss
+   :target: https://gitter.im/catholabs/YBoss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
 .. image:: https://badge.fury.io/py/yboss.png
     :target: http://badge.fury.io/py/yboss
 
